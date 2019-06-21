@@ -1,0 +1,22 @@
+*{
+    box-sizing:border-box;
+    text-align: center;
+}
+body{
+    background: linear-gradient(90deg, #f7b733, #fc4a1a);
+}
+h1{
+    text-decoration:underline;
+}
+#btnContainer{
+    display:flex;
+    justify-content: center;
+    margin-top: 0.6em;
+}
+#colorGenerator{
+    background: transparent;
+    border: 1.5px solid white;
+}
+#colorGenerator:active{
+    transform: scale(1.05);
+}
